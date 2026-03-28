@@ -2,6 +2,8 @@ describe('Login com falha', () => {
   beforeEach(() => {
     cy.visit('https://adopet-frontend-cypress.vercel.app/');
     cy.get('[data-test="login-button"]').click();
+
+    // Usando stub para simular erro mesmo com dados corretos
     cy.intercept(
       'POST',
       'https://adopet-api-i8qu.onrender.com/adotante/login',
@@ -23,6 +25,7 @@ describe('Login com falha', () => {
     );
   });
 
+  // Usando stub
   it('Deve falhar mesmo que os campos sejam preenchidos corretamente', () => {
     cy.login('antonioelton81@email.com', 'Senha123');
     cy.wait('@stubPost');
