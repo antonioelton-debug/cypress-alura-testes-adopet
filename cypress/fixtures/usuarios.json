@@ -1,0 +1,114 @@
+{
+  "usuarios": [
+    {
+      "name": "Peter Jason Quill",
+      "email": "peter.quill@alura.com.br",
+      "password": "Senha12345"
+    },
+    {
+      "name": "Gamora Zen Whoberi Ben Titan",
+      "email": "gamora@alura.com",
+      "password": "Senha123456"
+    },
+    {
+      "name": "Rocket Raccoon",
+      "email": "rocket.raccoon@alura.com",
+      "password": "Senha1234567"
+    },
+    {
+      "name": "Groot",
+      "email": "groot@alura.com.br",
+      "password": "Senha12345678"
+    },
+    {
+      "name": "Drax",
+      "email": "drax@alura.com",
+      "password": "Senha123456789"
+    },
+    {
+      "name": "Yondu Udonta",
+      "email": "youndu@alura.com.br",
+      "password": "Senha1234567890"
+    },
+    {
+      "name": "Mantis",
+      "email": "mantis@alura.com.br",
+      "password": "Senha12345678901"
+    },
+    {
+      "name": "Nebula",
+      "email": "nebula@alura.com",
+      "password": "Senha123456789012"
+    },
+    {
+      "name": "Adam Warlock",
+      "email": "adam.warlock@alura.com.br",
+      "password": "Senha1234567890123"
+    },
+    {
+      "name": "Kraglin Obfonteri",
+      "email": "kraglin@alura.com",
+      "password": "Senha12345678901234"
+    },
+    {
+      "name": "Cosmo the Spacedog",
+      "email": "cosmo@alura.com.br",
+      "password": "Senha123456789012345"
+    },
+    {
+      "name": "Stakar Ogord",
+      "email": "stakar@alura.com",
+      "password": "Senha1234567890123456"
+    },
+    {
+      "name": "Aleta Ogord",
+      "email": "aleta@alura.com.br",
+      "password": "Senha12345678901234567"
+    },
+    {
+      "name": "Charlie-27",
+      "email": "charlie27@alura.com",
+      "password": "Senha123456789012345678"
+    },
+    {
+      "name": "Martinex T'Naga",
+      "email": "martinex@alura.com.br",
+      "password": "Senha1234567890123456789"
+    },
+    {
+      "name": "Mainframe",
+      "email": "mainframe@alura.com",
+      "password": "Senha12345678901234567890"
+    },
+    {
+      "name": "Krugarr",
+      "email": "krugarr@alura.com.br",
+      "password": "Senha2026Cypress"
+    },
+    {
+      "name": "Howard the Duck",
+      "email": "howard@alura.com",
+      "password": "Senha2026Cypress1"
+    },
+    {
+      "name": "Lylla Otter",
+      "email": "lylla@alura.com.br",
+      "password": "Senha2026Cypress2"
+    },
+    {
+      "name": "Floor Rabbit",
+      "email": "floor@alura.com",
+      "password": "Senha2026Cypress3"
+    },
+    {
+      "name": "Teefs Walrus",
+      "email": "teefs@alura.com.br",
+      "password": "Senha2026Cypress4"
+    },
+    {
+      "name": "StarLordu",
+      "email": "StarLordu@alura.com.br",
+      "password": "Senha123"
+    }
+  ]
+}
