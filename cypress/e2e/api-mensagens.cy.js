@@ -1,5 +1,5 @@
 describe('Api Adopet', () => {
-  const tempoEsperado = Math.random() * 1000;
+  //const tempoEsperado = Math.random() * 1000; // Flaky test
   const authorization = `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxNzkyNTY5MC1lOTk2LTQxZjgtOWQ4NC04YzljOWZmOGJiNGYiLCJhZG9wdGVyTmFtZSI6IkFudG9uaW8gRWx0b24iLCJpYXQiOjE3NzQ4NzMyOTMsImV4cCI6MTc3NTEzMjQ5M30.ceTvVqehLssOSaV-9j5XUwsGjdO-HoPJ1op_Fa0pYSg`;
 
   it('Mensagens da API', () => {
@@ -11,7 +11,7 @@ describe('Api Adopet', () => {
       expect(res.status).to.be.equal(200);
       expect(res.body).is.not.empty;
       expect(res.body).to.have.property('msg');
-      expect(res.duration).to.be.lte(tempoEsperado);
+      //expect(res.duration).to.be.lte(tempoEsperado); // Flaky test
     });
   });
 });
